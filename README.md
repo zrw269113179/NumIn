@@ -35,6 +35,7 @@ numin:inputCount
         numin:backgroundColor="@color/colorPrimary"
         numin:emptyType="line"/>
 ```
+<br>
 ```java
         numIn = (NumIn)findViewById(R.id.numin);
         numIn.setInputCallback(new NumIn.InputCallBack() {
@@ -42,7 +43,6 @@ numin:inputCount
             public void onInputFinish(String str) {
                 Toast.makeText(MainActivity.this, str, Toast.LENGTH_SHORT).show();
             }
-
             @Override
             public void onTextChanged(int inputNumber) {
             }
