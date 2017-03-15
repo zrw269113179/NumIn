@@ -23,7 +23,7 @@ numin:inputCount
 ```
 <br>的方式定义属性。
 ## 示例
-<br>
+
 ```xml
 <com.zrw.numin.NumIn
         android:id="@+id/numin"
@@ -36,6 +36,7 @@ numin:inputCount
         numin:emptyType="line"/>
 ```
 <br>
+
 ```java
         numIn = (NumIn)findViewById(R.id.numin);
         numIn.setInputCallback(new NumIn.InputCallBack() {
